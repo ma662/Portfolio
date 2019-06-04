@@ -109,7 +109,7 @@ jQuery(document).ready(function($) {
 		$(this).removeClass("animated flipOutY");
 		}
 	);	
-	
+
 	//Fading entrances
 	$(".e_fadeIn").hover(
 		function () {
