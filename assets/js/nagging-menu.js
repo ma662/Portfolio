@@ -4,7 +4,7 @@ $(function(){
 		pos = menu.offset();
 		
 		$(window).scroll(function(){
-			if($(this).scrollTop() > pos.top+menu.height() && menu.hasClass('default')){
+			if($(this).scrollTop() > pos.top+menu.height() + 200 && menu.hasClass('default')){
 				menu.fadeOut('fast', function(){
 					$(this).removeClass('default').addClass('fixed').fadeIn('slow');
 				});

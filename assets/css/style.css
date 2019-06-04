@@ -316,11 +316,11 @@ nav select {
 
 
 section#intro {
-	background: #000 url(../img/bg/bg-1.jpg) 100% 0 no-repeat;
+	background: #000 url(../img/test2.jpg) 35% -5px no-repeat;
 	position:relative;
 	width:100%;
 	height:650px;
-	margin:0;
+	margin: 0;
 	padding:350px 0 0 0;
 }
 
