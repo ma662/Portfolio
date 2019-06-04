@@ -1182,6 +1182,7 @@ img.pull-left{
 .aligncenter{
 	margin:0 auto;
 	text-align:center;
+	opacity: 0.90;
 }
 
 .aligncenter i {
