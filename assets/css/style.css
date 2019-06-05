@@ -780,6 +780,10 @@ section#services {
 	}
 }
 
+section#contact {
+	padding-top: 30px;
+}
+
 #services .headline h3 {
 	color:#fff;
 }
@@ -798,6 +802,13 @@ section#services {
 .service-intro h3{
 	font-size:64px;
 	margin-bottom:0;
+}
+
+div#contact-div {
+	margin-left: 524px;
+	margin-right: auto;
+	position: absolute;
+	margin-bottom: 121px;
 }
 
 /*========== works ==================*/
@@ -1084,12 +1095,13 @@ section#bottom {
 /* Footer */
 
 footer{
-	float:left;
-	width:100%;
-	background:#212121;
-	color:#fff;
-	margin:0;
+	width: 100%;
+	background: #212121;
+	color: #fff;
+	margin: 0;
 	padding: 0;
+	position: absolute;
+	bottom: -2541px;
 }
 
 footer .verybottom {
