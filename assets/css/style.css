@@ -805,11 +805,28 @@ section#contact {
 }
 
 div#contact-div {
-	margin-left: 524px;
-	margin-right: auto;
-	position: absolute;
-	margin-bottom: 121px;
+	/* margin-left: auto;
+	margin-right: auto; */
+	/* margin-left: 524px; */
+	/* position: absolute; */
+	/* margin-bottom: 121px; */
+	position: relative;
+	/* float: right; */
 }
+
+#contact { 
+	margin-bottom: -9em;
+}
+
+
+.contact-row {
+	
+	margin-left: auto;
+	margin-right: auto;
+}
+/* .span4 {
+	border: 2px solid black;
+} */
 
 /*========== works ==================*/
 
@@ -1095,17 +1112,22 @@ section#bottom {
 /* Footer */
 
 footer{
-	width: 100%;
-	background: #212121;
-	color: #fff;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	bottom: -2541px;
+	float:left;
+	width:100%;
+	background:#212121;
+	color:#fff;
+	margin:0;
+	padding:40px 0 0 0;
+	margin-top: 100px;
+
 }
 
 footer .verybottom {
-	padding:30px 0 0 0;
+	padding: 8px 0 10px 0;
+}
+
+.verybottom {
+	bottom: 0;
 }
 
 .tabbable{
@@ -1147,6 +1169,7 @@ img.pull-left{
 .social-links li a:hover {
 	text-decoration:none;
 }
+
 
 
 /* ===================== demo purpose ==========================*/
