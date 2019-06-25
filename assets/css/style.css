@@ -227,6 +227,13 @@ header .logo {
 	margin:30px 0 0;
 }
 
+@media (min-width: 320px) {
+	.logo {
+		visibility: hidden;
+		margin: 0;
+	}
+}
+
 /* --- menu --- */
 
 .navigation {
@@ -1286,6 +1293,9 @@ img.pull-left{
 }
 
 @media (max-width: 767px) {
+	.container {
+		padding-bottom: 8px;
+	}
 
 	.navbar-inner {
 		width:100%;
@@ -1318,7 +1328,8 @@ img.pull-left{
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+	margin-right: 20px;
+	
 	}
 
 	div nav ul {
@@ -1363,21 +1374,29 @@ img.pull-left{
 
 }
 
+@media (min-width: 768px) {
+	#topnav {
+		padding-bottom: 43px;
+	}
+}
 
 @media (max-width: 480px) {
 
 
     nav select {
-      display: inline-block;
-	  width:85%;
-	  float:none;
-	  margin:20px;
-	  color:#111;
-	  line-height:30px;
-  -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
-		font-size:14px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -22px;
+		display: inline-block;
+		width: 90%;
+	  	float: none;
+	  	/* margin: 20px; */
+		color: #111;
+		line-height: 30px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		font-size: 14px;
 	}
 
 	section#intro{
@@ -1396,5 +1415,12 @@ img.pull-left{
 
 	.tweet span {
 		line-height:1.5em;
+	}
+}
+
+
+@media (min-width: 320px) {
+	#topnav {
+		height: 70px;
 	}
 }

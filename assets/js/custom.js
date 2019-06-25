@@ -45,11 +45,11 @@ jQuery(document).ready(function($) {
   $("<select />").appendTo("nav");
 
   // Create default option "Go to..."
-  $("<option />", {
-    "selected": "selected",
-    "value": "",
-    "text": "Go to..."
-  }).appendTo("nav select");
+  // $("<option />", {
+  //   "selected": "selected",
+  //   "value": "",
+  //   "text": "Home"
+  // }).appendTo("nav select");
 
   // Populate dropdown with menu items
   $("nav a").each(function() {
