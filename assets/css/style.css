@@ -1298,6 +1298,9 @@ img.pull-left{
 }
 
 @media (max-width: 767px) {
+	#special_row {
+		padding-bottom: 6em;
+	}
 	.span12>.row {
 		position: relative;
 		height: 140vh;
@@ -1313,7 +1316,7 @@ img.pull-left{
 		left: 0;
 		bottom: 0;
 		right: 0;
-		width: 51%;
+		width: 50%;
 		height: 50%;
 		overflow: auto;
 		margin: auto;
@@ -1428,7 +1431,18 @@ img.pull-left{
 	}
 }
 
+/* @media screen and (max-width: 766px) {
+	
+} */
+
 @media (max-width: 480px) {
+	.portfolio-area {
+		width: 75%;
+	}
+
+	#special_row {
+		padding-bottom: 0;
+	}
 
     nav select {
 		/* Center */
