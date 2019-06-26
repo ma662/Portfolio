@@ -1285,7 +1285,8 @@ img.pull-left{
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+	margin-right: 20px;
+	/* padding-bottom: 0; */
 	}
 	.default {
 	position: fixed;
@@ -1491,8 +1492,8 @@ img.pull-left{
 
 
 /* Greater than or equal to 320px */
-@media (min-width: 320px) { 
+@media screen and (min-width: 320px) { 
 	#topnav {
-		height: 70px;
+		height: 40px;
 	}
 }
