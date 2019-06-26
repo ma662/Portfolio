@@ -1298,9 +1298,15 @@ img.pull-left{
 }
 
 @media (max-width: 767px) {
+	section#services {
+		background-size: 310%;
+	}
+	
 	#special_row {
 		padding-bottom: 6em;
 	}
+
+
 	.span12>.row {
 		position: relative;
 		height: 140vh;
