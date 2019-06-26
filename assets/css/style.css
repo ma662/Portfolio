@@ -838,6 +838,10 @@ div#contact-div {
 
 /*========== works ==================*/
 
+.m_appear {
+	visibility: hidden;
+}
+
 ul.filter {
 	list-style:none;
 	margin-left:0;
@@ -1294,6 +1298,43 @@ img.pull-left{
 }
 
 @media (max-width: 767px) {
+	.span12>.row {
+		position: relative;
+		height: 140vh;
+		padding: 0;
+		margin: 0;
+		margin-top: -23em;
+	}
+	.portfolio-area {
+		padding-left: 6vw;
+		margin: auto;
+		/* position: absolute; */
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		width: 51%;
+		height: 50%;
+		overflow: auto;
+		margin: auto;
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+	}
+
+	.m_appear {
+		visibility: visible;
+	}
+
+	#works {
+		padding: 185px 0 0px 0;
+		padding-bottom: 0px;
+		margin-bottom: -192px;
+		padding-top: 55px;
+	}
+
 	.container {
 		padding-bottom: 8px;
 	}
@@ -1350,14 +1391,9 @@ img.pull-left{
 		right: 0;
 		bottom: 0;
 
-		
 		display: block;
 		width:60%;
-		/* float:right; */
-		/* margin-bottom:20px; */
 		color:#111;
-		/* margin-top:20px;
-		margin-right:40px; */
 		line-height:30px;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
@@ -1394,8 +1430,8 @@ img.pull-left{
 
 @media (max-width: 480px) {
 
-
     nav select {
+		/* Center */
 		margin-top: auto;
 		margin-bottom: auto;
 		margin-left: auto;
@@ -1406,15 +1442,8 @@ img.pull-left{
 		right: 0;
 		bottom: 0;
 
-
-
-		/* margin-left: auto;
-		margin-right: auto;
-		margin-top: -22px; */
-		/* display: inline-block; */
 		width: 60%;
 	  	float: none;
-	  	/* margin: 20px; */
 		color: #111;
 		line-height: 30px;
 		-webkit-border-radius: 4px;
@@ -1426,8 +1455,6 @@ img.pull-left{
 	section#intro{
 		padding:180px 0 20px;
 	}
-
-
 
 	.section {
 		padding: 85px 0 40px 0;
@@ -1443,7 +1470,8 @@ img.pull-left{
 }
 
 
-@media (min-width: 320px) {
+/* Greater than or equal to 320px */
+@media (min-width: 320px) { 
 	#topnav {
 		height: 70px;
 	}
