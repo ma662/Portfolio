@@ -1,7 +1,7 @@
 # Portfolio
 My professional portfolio built with Bootstrap and HTML.
 
-![](port-screencap.jpg)
+![](port_screencap.jpg)
 
 Deployed here: ma662.github.io/Portfolio/
 
